@@ -21,7 +21,7 @@ class Batterygraph < Formula
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     #system "make", "install" # if this fails, try separate make/make install steps
-    bin.install Dir['src/*']
+    bin.install Dir["src/*"]
     zsh_completion.install "completion/_batterygraph"
   end
 
