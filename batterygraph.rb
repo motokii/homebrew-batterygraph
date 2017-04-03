@@ -1,8 +1,8 @@
 class Batterygraph < Formula
   desc "Display graph of MacBook battery"
   homepage "https://github.com/motokii/batterygraph"
-  url "https://github.com/motokii/batterygraph/archive/v0.3.3.tar.gz"
-  sha256 "16598ce30be3393faa590b6dca9938f75aa7552aaa1accbbcb235bf4b7744798"
+  url "https://github.com/motokii/batterygraph/archive/v0.3.4.tar.gz"
+  sha256 "2ab83a5e77d6828e36b009dce96002831474b7f053306cdfd1c7e77137c3dd96"
   head "https://github.com/motokii/batterygraph.git"
 
   def install
